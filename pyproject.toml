@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pokedraftbot"
+version = "0.1.0"
+description = "A discord bot to facilitate a pokemon draft league"
+
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "discord",
+    "requests",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jherns/poke-draft-bot.py"
